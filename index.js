@@ -63,13 +63,14 @@ function receivesAFunction(callback){
     callback();
 }
 
-
+//test2
 function returnsANamedFunction() {
     return function namedFunction() {
       console.log("I'm a named function");
     };
   }
   
+  //test3
   function returnsAnAnonymousFunction() {
     return function() {
       console.log("I'm an anonymous function");
